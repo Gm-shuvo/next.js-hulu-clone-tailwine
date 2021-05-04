@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Header } from '../Components/Header'
+import Nav from '../Components/Nav'
 
 export default function Home() {
   return (
@@ -12,8 +13,9 @@ export default function Home() {
         <link rel="icon" href="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/hulu-512.png" />
       </Head>
     {/* Header  */}
-    <Header/>
+       <Header/>
     {/* Navigation  */}
+        <Nav/>
     {/* Main contents */}
      
     </div>
